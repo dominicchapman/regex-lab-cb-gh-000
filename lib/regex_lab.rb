@@ -15,7 +15,11 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+  # Returns true for text starting with a capital letter and ending with puncutation
+  # Returns false for text starting with an uncapitalized letter but ending with puncutation
+  # Returns false for text starting with a capital letter but ending without puncutation
+  # Returns false for text starting without a capital letter and ending without puncutation
+  
 end
 
 def valid_phone_number?(phone)
