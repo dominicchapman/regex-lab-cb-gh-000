@@ -19,7 +19,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   # Returns false for text starting with an uncapitalized letter but ending with puncutation
   # Returns false for text starting with a capital letter but ending without puncutation
   # Returns false for text starting without a capital letter and ending without puncutation
-  
+  !!text.match(/^[A-Z].+[\.!?]$/)
 end
 
 def valid_phone_number?(phone)
