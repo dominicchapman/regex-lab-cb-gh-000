@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
   # returns true for words starting with a vowel
+  # returns false for words starting with a consonant
   !!word.match(/^[aeiouAEIOU]\w+/)
 end
 
